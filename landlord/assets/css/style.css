@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav, .footer{
+    width:100%;
+    display: block;
+    overflow: hidden;
+    background-color: rgb(0,42,0);
+}
+.nav .logo{
+    float: left;
+    display: block;
+    overflow: hidden;
+    align-items: center !important;
+    align-self: center !important;
+    align-content: center !important;
+
+}
+.nav .logo img{
+    padding:4px;
+    margin:4px;
+}
+
+.nav .user{
+    float:right;
+    display: block;
+    overflow: hidden;
+    align-items: center !important;
+    align-self: center !important;
+    align-content: center !important;
+}
+
+.nav .user ul li{
+    padding:4px;
+    margin:4px;
+    margin-top: 25%;
+    color: white;
+    font-size: 28px;
+    align-items: center !important;
+    align-self: center !important;
+    align-content: center !important;
+    
+}
+.subtab{
+    display: none;
+}
+.nav .user ul li:hover .subtab{
+    display: block;
+    position: absolute;
+}
+.nav .user ul li:hover .subtab ul{
+    position: absolute;
+    overflow: hidden;
+    margin-left: -97px;
+    background-color:rgb(224,238,224) ;
+}
+.nav .user ul li:hover .subtab ul li{
+    margin: 0;
+    margin-top: -20px !important;
+    padding: 6px;
+    list-style: none;
+    float: none;
+
+}
+.nav .user ul li:hover .subtab ul li a{
+    font-size: large;
+    padding: 0;
+    margin-top: 0;
+    color: black;
+    text-decoration: none;
+
+}
+.nav .user ul li:hover .subtab ul li a:hover{
+    color: goldenrod;
+}
+.nav .user ul li:hover .subtab ul li a img{
+    margin:20px !important ;
+}
+.footer h3{
+    padding: 16px;
+    color: white;
+    margin: 16px;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    height: 100% !important;
+
+}
+.container .sidebar{
+    width: 15%;
+    height: 34rem;
+    background-color: rgb(13, 77, 13);
+    float: left;
+
+}
+.container .sidebar h1{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(23, 49, 40);
+    margin: 0px;
+   
+}
+.container .sidebar ul{
+    margin: 5px;
+    width:100% ;
+    display: block;
+    overflow: hidden;
+}
+.container .sidebar ul li{
+    width: 90%;
+    padding: 2%;
+    background-color: rgb( 23,43,31);
+    color: white;
+    font-size: large;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+.container .sidebar ul li:hover{
+    background-color: rgb( 1,42,18);
+    cursor: pointer;
+    color: gold;
+}
+.container .sidebar ul a{
+    text-decoration: none;
+}
+.tab{
+    display: none;
+
+}
+.container .sidebar ul li:hover .tab{
+    display: block;
+}
+.container .sidebar ul li:hover .tab ul{
+    position: absolute;
+    width: 14%;
+    background-color: aliceblue;
+    border-radius: 0px 30px 16px 30px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: opx 0px 1opx 1opx rgb(0,0,0,0.2);
+}
+.container .sidebar ul li:hover .tab ul a li{
+    background-color: transparent;
+    color: black;
+    width: inherit !important;
+    margin-top: 5px;
+}
+.container .sidebar ul li:hover .tab ul a li:hover{
+    color: goldenrod;
+}
+.container .main-content{
+    width: 81%;
+    float: left;
+    margin: 1%;
+    display: block;
+    overflow: hidden;
+    background-color: white;
+    height:32rem !important;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px 10px rgb( 0,0,0,0.1);
+}
+
+.container .main-content h1{
+    text-align: center;
+    padding: 16px;background-color: gainsboro;
+    border-radius:16px 16px 0px 0px;
+}
+
+.container .main-content .card{
+    width: 100%;
+    height: 100% !important;
+    overflow-x: auto;
+    padding: 16px;
+
+}
+.container .main-content .card .card1{
+    width: 20%;
+    margin: 2%;
+    height: 7rem;
+    border-radius: 16px;
+    background-color: white;
+    float: left;
+    box-shadow: 0px 0px 10px 10px rgb( 0,0,0,0.1);
+    text-align: center !important;
+    align-items: center !important;
+    align-content: center !important;
+
+
+}
+.container .main-content .card .card1:hover{
+    background-color: rgb(120, 150, 124);
+    cursor: pointer;
+}
+.container .main-content .card .card1 h2, ,.no{
+    padding: 5px;
+}
+
+
+.container .main-content .card .card1 .no{
+    font-size: 38px;
+    color: brown;
+    
+}
+.container{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    height: 100% !important;
+}
+.container .sidebar1{
+    width: 15%;
+    height: 34rem;
+    background-color: rgb(13, 77, 13);
+    float: left;
+}
